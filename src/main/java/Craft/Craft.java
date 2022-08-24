@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Craft {
 
-    private String name;
+    protected String name;
 
     protected double timeToMake;
 

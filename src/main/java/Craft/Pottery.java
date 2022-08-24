@@ -27,4 +27,20 @@ public class Pottery extends FunctionalWork {
     }
     //if the parameter = bowl, say yes we can make it
     // if potter parament equals mug - ask hwo many
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getClayType(){
+        return clayType;
+    }
+
+    public void setClayType(String name) {
+        this.clayType = clayType;
+    }
 }

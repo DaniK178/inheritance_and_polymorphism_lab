@@ -13,7 +13,7 @@ public class WoodWork extends FunctionalWork {
     }
 
     public String nails (int numberOfNails){
-        return String.format("This wood type %s, would require %o of nails",this.woodMaterial, numberOfNails);
+        return String.format("This wood type, %s, would require %d nails",this.woodMaterial, numberOfNails);
     }
 
 }

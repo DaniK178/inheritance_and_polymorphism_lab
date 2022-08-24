@@ -1,4 +1,5 @@
 import Craft.Pottery;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,8 +13,9 @@ public class PotteryTest {
     }
 
     @Test
-
-
+    public void objectTypeBowls(){
+        assertThat(Pottery.makeObject).isEqualTo("A pottery Object will be made");
+    }
 
 
 }

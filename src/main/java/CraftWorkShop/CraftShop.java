@@ -17,10 +17,11 @@ public class CraftShop {
         this.name = name;
         this.functionalWork = new ArrayList<>();
     }
-public String listFunctionalObjects(){
-        for (FunctionalWork work : functionalWork)
+    public void listFunctionalObjects() {
+        for (FunctionalWork work : functionalWork) {
             System.out.println(work);
-}
+        }
+    }
 
 
     public String getName(){

@@ -13,7 +13,7 @@ public class MetalWork extends FunctionalWork implements IUsingNails {
     }
 
     public String nails (int numberOfNails){
-        return String.format("This metal type %s, would require %o of nails",this.metalType, numberOfNails);
+        return String.format("This metal type, %s, would require %d nails",this.metalType, numberOfNails);
     }
 
 }
