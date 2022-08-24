@@ -22,6 +22,9 @@ public class CraftShop {
             System.out.println(work);
         }
     }
+//    public void numberOfFunctionalWork(){
+//    int sizeOfFunctionalWork = FunctionalWork.size();
+//    }
 
 
     public String getName(){
